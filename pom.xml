@@ -21,6 +21,13 @@
         <jelastic.environment>wakaleo</jelastic.environment>
     </properties>
 
+<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://localhost:8083/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
+
     <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
